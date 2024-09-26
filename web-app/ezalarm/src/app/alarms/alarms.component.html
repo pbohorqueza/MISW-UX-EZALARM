@@ -1,0 +1,16 @@
+<div class="alarms-container">
+  <div class="title">Mis Alarmas</div>
+  <div class="subtitle">Este es el listado de las alarmas que tiene configuradas actualmente</div>
+  <mat-list>
+    <ng-container *ngFor="let alarma of alarmas">
+      <mat-list-item>
+        <span matListItemTitle><a>{{ alarma.grupo }}</a></span>
+        <span matListItemLine><a class="subtitle">{{ alarma.nombre }}</a></span>
+        <span matListItemLine><a>{{ alarma.periodicidad }}</a></span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </ng-container>
+  </mat-list>
+  
+  
+</div>

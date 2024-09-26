@@ -1,0 +1,20 @@
+<div class="grupos-container">
+  <div class="title">Mis Grupos</div>
+  <div class="subtitle">Use los grupos para clasificar sus alarmas y gestionarlas mejor</div>
+  
+  <button mat-raised-button color="primary" class="create-group-button">Crear Grupo</button>
+
+  <mat-list>
+
+    <ng-container *ngFor="let grupo of grupos">
+      <mat-list-item>
+        <span matListItemTitle><a class="subtitle">{{ grupo.nombre }}</a></span>
+        <span matListItemLine><a>{{ grupo.ringtone }}</a></span>
+        
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </ng-container>
+  </mat-list>
+  
+  
+</div>

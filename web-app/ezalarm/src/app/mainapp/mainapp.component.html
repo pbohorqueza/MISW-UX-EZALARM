@@ -1,0 +1,36 @@
+<mat-tab-group>
+  <mat-tab disabled label="EZ Alarm">
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">alarm</mat-icon>
+      Mis Alarmas
+    </ng-template>
+    <app-alarms></app-alarms>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">group_work</mat-icon>
+      Grupos
+    </ng-template>
+    <app-groups></app-groups>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">sync</mat-icon>
+      Calendarios
+    </ng-template>
+
+    Content 3
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">person</mat-icon>
+      Mi Cuenta
+    </ng-template>
+
+    Content 3
+  </mat-tab>
+</mat-tab-group>
