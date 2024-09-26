@@ -1,0 +1,60 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  mat-form-field {
+    width: 100%; 
+    margin-bottom: 5px; 
+  }
+.login-form {
+    padding: 5px;
+    text-align: center;
+    background-color: white; 
+  }
+
+  .title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem; 
+  }
+  
+  .subtitle {
+    font-size: 1.2rem; 
+    margin: 20px 0; 
+  }
+  
+  
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  .login-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .links {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #3f51b5;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  

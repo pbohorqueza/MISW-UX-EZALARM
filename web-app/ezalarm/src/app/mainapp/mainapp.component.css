@@ -1,0 +1,27 @@
+div {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+    align-items: center; 
+  }
+  
+  .app-title {
+    grid-column: 1 / span 2; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: white; 
+    margin-right: 10px; 
+  }
+  
+  .separator {
+    grid-column: 3; 
+    color: white; 
+  }
+  
+  .navigationbar {
+    grid-column: 4 / span 9; 
+  }
+  
+  .example-tab-icon {
+    margin-right: 4px; 
+  }
+  
