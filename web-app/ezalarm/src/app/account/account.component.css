@@ -21,4 +21,7 @@
     align-items: center; 
     font-family: "Poppins", sans-serif;
   }
+  .custlist {
+    background-color: rgba(217, 217, 217, 0.4); 
+  }
   

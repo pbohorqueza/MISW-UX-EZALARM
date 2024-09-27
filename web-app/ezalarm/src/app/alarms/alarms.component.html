@@ -1,7 +1,7 @@
 <div class="alarms-container">
   <div class="title">Mis Alarmas</div>
   <div class="subtitle">Este es el listado de las alarmas que tiene configuradas actualmente</div>
-  <mat-list>
+  <mat-list class="custlist">
     <ng-container *ngFor="let alarma of alarmas">
       <mat-list-item>
         <span matListItemTitle><a>{{ alarma.grupo }}</a></span>
