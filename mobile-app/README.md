@@ -32,7 +32,7 @@ Follow these steps to install and run the project on your local machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/pbohorqueza/MISW-UX-EZALARM
 
 2.	**Open the Project in Android Studio:**
 - Launch Android Studio.
