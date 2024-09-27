@@ -8,9 +8,6 @@ EZ Alarm allows you to track your activities by leveraging usefull alarms which 
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
