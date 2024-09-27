@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EZAlarm</string>
+    <string name="alarms">Alarms</string>
+    <string name="groups">Groups</string>
+    <string name="sounds">Sounds</string>
+    <string name="account">My Account</string>
+    <string name="back_button_description">Back</string>
+    <string name="alarms_route">alarms-section</string>
+    <string name="groups_section">groups-section</string>
+    <string name="sounds_section">sounds-section</string>
+    <string name="account_section">account-section</string>
+    <string name="action_confirm">Save</string>
+</resources>
