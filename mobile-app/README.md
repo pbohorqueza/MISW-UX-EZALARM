@@ -37,7 +37,7 @@ Follow these steps to install and run the project on your local machine:
 2.	**Open the Project in Android Studio:**
 - Launch Android Studio.
 - Select Open an existing Android Studio project.
-- Navigate to the cloned repository directory and open it.
+- Navigate to the cloned repository under the mobile-app directory and open it.
 3.	**Sync Gradle:**
 - Once the project is open, click on Sync Now in the notification bar to download the dependencies.
 4.	**Set Up the Emulator or Device:**
