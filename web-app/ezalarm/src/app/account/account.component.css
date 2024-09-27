@@ -1,15 +1,7 @@
-.grupos-container {
+.accounts-container {
     padding: 16px;
   }
-  .section-header {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-  }
-  .section-name {
-    display: flex;
-    flex-direction: column; 
-  }
+  
 
   .title {
     text-align: left;
@@ -22,9 +14,6 @@
     margin: 20px 0; 
   }
   
-  .create-group-button {
-    margin-bottom: 16px; 
-  }
   
   .mat-list-item {
     display: flex; 

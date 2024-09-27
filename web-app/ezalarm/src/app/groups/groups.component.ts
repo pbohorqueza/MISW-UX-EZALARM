@@ -6,6 +6,7 @@ import { MatListItemAvatar } from '@angular/material/list';
 import { MatListItemIcon } from '@angular/material/list';
 import { MatLineModule } from '@angular/material/core';
 import { MatDivider } from '@angular/material/divider';
+import { MatButtonModule } from '@angular/material/button';
 
 interface Grupo {
   nombre: string;
@@ -14,7 +15,7 @@ interface Grupo {
 @Component({
   selector: 'app-groups',
   standalone: true,
-  imports: [CommonModule,MatListModule,MatListItem,MatListItemAvatar,MatListItemIcon,MatLineModule,MatDivider],
+  imports: [CommonModule,MatListModule,MatListItem,MatListItemAvatar,MatListItemIcon,MatLineModule,MatDivider,MatButtonModule],
   templateUrl: './groups.component.html',
   styleUrls: ['./groups.component.css']
 })

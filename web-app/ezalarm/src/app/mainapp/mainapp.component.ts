@@ -6,6 +6,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbar} from '@angular/material/toolbar';
 import { GroupsComponent } from '../groups/groups.component';
 import { AlarmsComponent } from "../alarms/alarms.component";
+import { AccountComponent } from "../account/account.component";
 
 @Component({
   selector: 'app-mainapp',
@@ -19,7 +20,8 @@ import { AlarmsComponent } from "../alarms/alarms.component";
     MatTabsModule,
     MatToolbar,
     GroupsComponent,
-    AlarmsComponent
+    AlarmsComponent,
+    AccountComponent
 ],
   templateUrl: './mainapp.component.html',
   styleUrls: ['./mainapp.component.css']

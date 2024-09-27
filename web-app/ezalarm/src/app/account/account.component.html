@@ -1,0 +1,20 @@
+<div class="accounts-container">
+  <div class="title">Mi Cuenta</div>
+  <div class="subtitle">Administre su cuenta EZ Alarm</div>
+  <mat-list>
+      <mat-list-item>
+        <span matListItemTitle><a>Nombre de usuario</a></span>
+        <span matListItemLine><a >Juan Pérez</a></span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <span matListItemTitle><a routerLink="/passwordreset">Editar Contraseña</a></span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <span matListItemTitle><a routerLink="/login">Cerrar Sesión</a></span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+  </mat-list>
+  <router-outlet/>
+</div>

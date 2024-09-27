@@ -1,4 +1,4 @@
-<mat-tab-group>
+<mat-tab-group class="customTabs">
   <mat-tab disabled label="EZ Alarm">
   </mat-tab>
   <mat-tab>
@@ -17,13 +17,12 @@
     <app-groups></app-groups>
   </mat-tab>
 
-  <mat-tab>
+  <mat-tab disabled>
     <ng-template mat-tab-label>
       <mat-icon class="example-tab-icon">sync</mat-icon>
       Calendarios
     </ng-template>
 
-    Content 3
   </mat-tab>
   <mat-tab>
     <ng-template mat-tab-label>
@@ -31,6 +30,6 @@
       Mi Cuenta
     </ng-template>
 
-    Content 3
+    <app-account></app-account>
   </mat-tab>
 </mat-tab-group>
